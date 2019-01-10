@@ -1,4 +1,4 @@
-# Python for MegaPi version (0.1.9)
+# Python for MegaPi (version 0.1.9)
 First repository --  (Time stamp 3:11 PM  1/10/2019)
 # and the Raspberry Pi 3
 ## How To Use
