@@ -8,8 +8,7 @@ First repository --  (Time stamp 3:11 PM  1/10/2019)
  https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip
  * Copy the makeblock folder to your arduino default library. Your Arduino library folder should now look like this 
    * (on Windows): ```[x:\Users\XXX\Documents]\Arduino\libraries\makeblock\src```
-   * (on Mac OSX): ```[\Users\XXX\Documents]\Arduino\libraries\makeblock\src```
- * Open Arduino IDE, choose the firmware from <em>File&gt;Examples</em>.
+   * Open Arduino IDE, choose the firmware from <em>File&gt;Examples</em>.
  ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/firmware.jpg)
  * Compile and upload firmware for your Raspberry Pi 3
 
