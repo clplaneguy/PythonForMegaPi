@@ -24,7 +24,7 @@ Disable the Raspberry Pi 3 bluetooth and restore UART0 **(/dev/ttyAMA0)** over G
 
 * Disable the Raspberry Pi 3 bluetooth . . .
 
-1. Search `pi3-disable-bt` in file `/boot/overlays/README`, it will show you, how to disable the bluetooth, if you want switch the bluetooth to mini-UART(ttyS0), you can search `pi3-miniuart-bt` 
+1. Search `pi3-disable-bt` in file `/boot/overlays/README`, it will show you, how to disable the bluetooth
 
 ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/pi3-disable-bt.jpg)
 
