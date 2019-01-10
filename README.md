@@ -17,12 +17,8 @@ First repository --  (Time stamp 3:11 PM  1/10/2019)
 
 ![image](https://user-images.githubusercontent.com/23004042/50984814-598df100-14c8-11e9-8689-bddfefe25571.png)
 
-* If you are using raspberry 3 B+，since the Bluetooth function takes up the ttyAMA0 port, You have two ways to solve this problem.
+Disable the pi3 bluetooth and restore UART0 **(/dev/ttyAMA0)** over GPIOs 14&15
 
-
-1. Disable the pi3 bluetooth and restore UART0/ttyAMA0 over GPIOs 14&15
-
-2. Switch pi3 blutooth function to use the mini-UART(ttyS0) and restore UART0/ttyAMA0 over GPIOs 14&15. 
 
 * Here, I disable the pi3 bluetooth as an example
 
