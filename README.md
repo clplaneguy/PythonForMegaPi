@@ -14,7 +14,8 @@ First repository --  (Time stamp 3:11 PM  1/10/2019)
 ### Prepare for Raspberry Pi
  * On your Raspberry Pi, disable the login prompt from Desktop->Menu->Preferences->Raspberry Pi Configuration.
 
-![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/serial.jpg)
+
+![image](https://user-images.githubusercontent.com/23004042/50984814-598df100-14c8-11e9-8689-bddfefe25571.png)
 
 * If you are using raspberry 3 B+，since the Bluetooth function takes up the ttyAMA0 port, You have two ways to solve this problem.
 
@@ -60,10 +61,6 @@ dtoverlay=pi3-disable-bt
 ### Wiring
 * Using MegaPi
  ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/megapi.jpg)
-* Using Me Shield for Raspberry Pi and RJ25 cable for Me Orion or Me Baseboard.
- ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/baseboard-pi-shield.jpg)
-* Using USB Cable for Me Orion or Me Baseboard
- ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/baseboard-usb-cable.jpg)
 
 ## Python API
  * Start
