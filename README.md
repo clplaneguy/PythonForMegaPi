@@ -3,7 +3,7 @@ First repository --  (Time stamp 3:11 PM  1/10/2019)
 # and the Raspberry Pi 3
 ## How To Use
 ### Prepare the Arduino IDE
- * Download the Arduino library for Makeblock
+ * Download the Makeblock's library for the Arduino IDE
  
  https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip
  * Copy the makeblock folder to your arduino default library. Your Arduino library folder should now look like this 
@@ -37,18 +37,18 @@ dtoverlay=pi3-disable-bt
 
 ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/configTxt.jpg)
 
-3. reboot the raspberry pi
+3. reboot the Raspberry Pi 3
 
 4. open the Terminal and input the command `sudo systemctl disable hciuart`
 
-5. Now you can use **/dev/ttyAMA0** as UART over GPIOs 14&15 
+5. Now you can use UART0 (**/dev/ttyAMA0**) over GPIOs 14&15 
 
 
- * install python library for Makeblock
+ * install the **Python2** library for Makeblock
  ```
  sudo pip install megapi
  ```
- Inter Python2
+ Inter (**Python2**)
  **$ idle**
  
  * the initial code for python.
