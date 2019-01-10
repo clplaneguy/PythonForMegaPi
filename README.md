@@ -1,4 +1,5 @@
-# Python For MegaPi 0.1.9  and the Raspberry Pi 3
+# Python for MegaPi version (0.1.9)
+# and the Raspberry Pi 3
 ## How To Use
 ### Prepare for Arduino
  * Download the Arduino library for Makeblock https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip
