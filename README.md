@@ -2,25 +2,26 @@
 First repository --  (Time stamp 3:11 PM  1/10/2019)
 # and the Raspberry Pi 3
 ## How To Use
-### Prepare for Arduino
- * Download the Arduino library for Makeblock https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip
+### Prepare the Arduino IDE
+ * Download the Arduino library for Makeblock
+ https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip
  * Copy the makeblock folder to your arduino default library. Your Arduino library folder should now look like this 
    * (on Windows): ```[x:\Users\XXX\Documents]\Arduino\libraries\makeblock\src```
    * (on Mac OSX): ```[\Users\XXX\Documents]\Arduino\libraries\makeblock\src```
  * Open Arduino IDE, choose the firmware from <em>File&gt;Examples</em>.
  ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/firmware.jpg)
- * Compile and upload firmware according to your board type.
+ * Compile and upload firmware for your Raspberry Pi 3
 
-### Prepare for Raspberry Pi
+### Prepare the Raspberry Pi 3
  * On your Raspberry Pi, disable the login prompt from Desktop->Menu->Preferences->Raspberry Pi Configuration.
 
 
 ![image](https://user-images.githubusercontent.com/23004042/50984814-598df100-14c8-11e9-8689-bddfefe25571.png)
 
-Disable the pi3 bluetooth and restore UART0 **(/dev/ttyAMA0)** over GPIOs 14&15
+Disable the Raspberry Pi 3 bluetooth and restore UART0 **(/dev/ttyAMA0)** over GPIOs 14&15
 
 
-* Here, I disable the pi3 bluetooth as an example
+* Disable the Raspberry Pi 3 bluetooth . . .
 
 1. Search `pi3-disable-bt` in file `/boot/overlays/README`, it will show you, how to disable the bluetooth, if you want switch the bluetooth to mini-UART(ttyS0), you can search `pi3-miniuart-bt` 
 
@@ -39,18 +40,21 @@ dtoverlay=pi3-disable-bt
 
 4. open the Terminal and input the command `sudo systemctl disable hciuart`
 
-5. Now you can use ttyAMA0 as UART over GPIOs 14&15 
+5. Now you can use **/dev/ttyAMA0** as UART over GPIOs 14&15 
 
 
  * install python library for Makeblock
  ```
  sudo pip install megapi
  ```
+ Inter Python2
+ **$ idle**
+ 
  * the initial code for python.
 ```
  from megapi import *
  bot = MegaPi()
- bot.start() #if using usb cable, need to call bot.start('/dev/ttyACM0')
+ bot.start()
  ```
  * python your code
 
@@ -143,5 +147,11 @@ dtoverlay=pi3-disable-bt
 	  * **shutterOff** ( port )
 	  * **focusOn** ( port )
 	  * **focusOff** ( port )
+
+###Latest versions of the software are (1/10/2019)
+MegaPi2560 firmware	0e.01.016
+Arduino IDE	1.8.8
+MegaPi library for the Arduino IDE	3.2.6
+Python library for the Raspberry	0.1.9
 
 ###Learn more from Makeblock official website: www.makeblock.com
