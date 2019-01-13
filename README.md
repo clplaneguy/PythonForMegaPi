@@ -43,11 +43,9 @@ dtoverlay=pi3-disable-bt
 
  * install the **Python2** library for Makeblock
  ```
- sudo pip install megapi
+ ~ $ sudo pip install megapi
+ ~ $ python
  ```
- Inter (**Python2**)
- **$ idle**
- 
  * the initial code for python.
 ```
  from megapi import *
@@ -155,4 +153,4 @@ dtoverlay=pi3-disable-bt
 |Python library for the Raspberry     |0.1.9|
 
 ### Learn more from Makeblock official website: www.makeblock.com         
-# Lasted edit 1/13/2019
+###### Lasted edit 1/13/2019
