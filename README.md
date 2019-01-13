@@ -10,16 +10,16 @@
  ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/firmware.jpg)
  * Compile and upload firmware for your Raspberry Pi 3
 
-### Prepare the Raspberry Pi 3
- * On your Raspberry Pi, disable the login prompt from Desktop->Menu->Preferences->Raspberry Pi Configuration.
+### Prepare the Raspberry Pi3
+ * On your Raspberry Pi3, disable the login prompt from Desktop->Menu->Preferences->Raspberry Pi Configuration.
 
 
 ![croped](https://user-images.githubusercontent.com/23004042/51089305-ad027800-1730-11e9-9351-7543cad11bef.png)
 
-Disable the Raspberry Pi 3 bluetooth and restore UART0 **(/dev/ttyAMA0)** over GPIOs 14&15
+Disable the Raspberry Pi3 bluetooth and restore UART0 **(/dev/ttyAMA0)** to GPIOs 14&15
 
 
-* Disable the Raspberry Pi 3 bluetooth . . .
+* Disable the Raspberry Pi3 bluetooth . . .
 
 1. Search `pi3-disable-bt` in file `/boot/overlays/README`, it will show you, how to disable the bluetooth
 
@@ -34,19 +34,19 @@ dtoverlay=pi3-disable-bt
 
 ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/configTxt.jpg)
 
-3. reboot the Raspberry Pi 3
+3. Reboot the Raspberry Pi3
 
-4. open the Terminal and input the command `sudo systemctl disable hciuart`
+4. Open the Terminal and input the command `sudo systemctl disable hciuart`
 
 5. Now you can use UART0 (**/dev/ttyAMA0**) over GPIOs 14&15 
 
 
- * install the **Python2** library for Makeblock
+ * Install the **Python2** library for Makeblock
  ```
  ~ $ sudo pip install megapi
  ~ $ python
  ```
- * the initial code for python.
+ * The initial code for python.
 ```
  from megapi import *
  bot = MegaPi()
