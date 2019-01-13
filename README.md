@@ -16,7 +16,7 @@ First repository --  (Time stamp 3:11 PM  1/10/2019)
  * On your Raspberry Pi, disable the login prompt from Desktop->Menu->Preferences->Raspberry Pi Configuration.
 
 
-![image](https://user-images.githubusercontent.com/23004042/50984814-598df100-14c8-11e9-8689-bddfefe25571.png)
+![croped](https://user-images.githubusercontent.com/23004042/51089305-ad027800-1730-11e9-9351-7543cad11bef.png)
 
 Disable the Raspberry Pi 3 bluetooth and restore UART0 **(/dev/ttyAMA0)** over GPIOs 14&15
 
