@@ -1,5 +1,4 @@
 # Python for MegaPi (version 0.1.9)
-First repository --  (Time stamp 3:11 PM  1/10/2019)
 # and the Raspberry Pi 3
 ## How To Use
 ### Prepare the Arduino IDE
@@ -149,13 +148,15 @@ dtoverlay=pi3-disable-bt
 	  * **focusOff** ( port )
 
 ### Latest versions of the software are (1/10/2019)
-MegaPi2560 firmware	0e.01.016
+Software     Version
+| --- | ---|
+|MegaPi2560 firmware	|0e.01.016|
 
-Arduino IDE	1.8.8
+|Arduino IDE|	1.8.8|
 
-MegaPi library for the Arduino IDE	3.2.6
+|MegaPi library for the Arduino IDE	|3.2.6|
 
-Python library for the Raspberry	0.1.9
+|Python library for the Raspberry	|0.1.9|
 
 
-###Learn more from Makeblock official website: www.makeblock.com
+###Learn more from Makeblock official website: www.makeblock.com         Lasted edit 1/13/2019
