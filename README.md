@@ -54,10 +54,10 @@ dtoverlay=pi3-disable-bt
  bot = MegaPi()
  bot.start()
  ```
- * python your code
+ * Python2 code goes here
 
 ### Wiring
-* Using MegaPi
+
  ![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/megapi.jpg)
 
 ## Python API
@@ -154,4 +154,5 @@ dtoverlay=pi3-disable-bt
 |MegaPi library for the Arduino IDE   |3.2.6|
 |Python library for the Raspberry     |0.1.9|
 
-###Learn more from Makeblock official website: www.makeblock.com         Lasted edit 1/13/2019
+### Learn more from Makeblock official website: www.makeblock.com         
+# Lasted edit 1/13/2019
