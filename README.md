@@ -1,5 +1,4 @@
-# Python for MegaPi (version 0.1.9)
-# and the Raspberry Pi 3
+# Raspberry Pi3 Python2 for MegaPi (AT mega2560)
 ## How To Use
 ### Prepare the Arduino IDE
  * Download the Makeblock's library for the Arduino IDE
