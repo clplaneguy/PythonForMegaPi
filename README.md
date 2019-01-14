@@ -12,7 +12,8 @@
 ### Prepare for Raspberry Pi
  * On your Raspberry Pi, disable the login prompt from Desktop->Menu->Preferences->Raspberry Pi Configuration.
 
-![image](https://raw.githubusercontent.com/Makeblock-official/PythonForMegaPi/master/images/serial.jpg)
+![croped](https://user-images.githubusercontent.com/23004042/51089305-ad027800-1730-11e9-9351-7543cad11bef.png)
+
 
 * If you are using raspberry 3 B+，since the Bluetooth function takes up the ttyAMA0 port, You have two ways to solve this problem.
 
