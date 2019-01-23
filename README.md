@@ -1,4 +1,5 @@
 # Python For MegaPi
+version 0.2.0
 ## How To Use
 ### Prepare for Arduino
  * Download the Arduino library for Makeblock https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip
@@ -47,13 +48,17 @@ dtoverlay=pi3-disable-bt
  ```
  sudo pip install megapi
  ```
+ or
+ ```
+ sudo pip3 install megapi
+ ```
  * the initial code for python.
 ```
  from megapi import *
  bot = MegaPi()
  bot.start() #if using usb cable, need to call bot.start('/dev/ttyACM0')
  ```
- * python your code
+ * Your Python code
 
 ### Wiring
 * Using MegaPi
